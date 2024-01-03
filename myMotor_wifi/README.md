@@ -11,4 +11,5 @@ http://10.0.0.100/forward?time=1000
 
 http://10.0.0.100/backward?time=1000
 
+http://10.0.0.100/circle?time=2000
 

@@ -11,18 +11,6 @@ const char* password = "<YOUR_WIFI_PASSWORD>";
 AsyncWebServer server(80);
 Car car;
 
-void forwardFunction() {
-  // 在这里添加前进的实际功能
-  Serial.println("Forwarding...");
-  // 这里可以执行你的前进代码
-}
-
-void backwardFunction() {
-  // 在这里添加后退的实际功能
-  Serial.println("Backwarding...");
-  // 这里可以执行你的后退代码
-}
-
 void setup() {
   Serial.begin(115200);
   Serial.println("STARTING...");
